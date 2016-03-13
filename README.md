@@ -10,7 +10,7 @@ set GTAGSCONF=d:\global\etc\gtags.conf
 set GTAGSLABEL=pygments
 
 3. gtags.conf
-:gtags_parser=XSLT\:d./global/etc/pygments-parser.dll:\
+:gtags_parser=XSLT\:d\:/global/lib/gtags/pygments-parser.dll:\
 
 4. run it
 gtags -v --gtagsconf d:\global\etc\gtags.conf  --gtagslabel pygments --statistics
